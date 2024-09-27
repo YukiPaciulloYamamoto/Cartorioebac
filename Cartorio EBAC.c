@@ -128,6 +128,7 @@ int main()//int serve pra armazenar algo.
 		printf("\t1 - Registrar nomes\n");// o \t serve pra dar um espaço antes da da frase.
 		printf("\t2 - Consultar nomes\n");
 		printf("\t3 - Deletar nomes\n\n");
+		printf("\t4 - Sair do sistema\n\n");
 		printf("Opção:");//fim do menu
 
 	
@@ -147,6 +148,11 @@ int main()//int serve pra armazenar algo.
 			
 			case 3:
 			deletar ();
+			break;
+			
+			case 4:
+			printf("Obrigado porutilizar o sistema!\n");
+			return 0;
 			break;
 			
 			default:
